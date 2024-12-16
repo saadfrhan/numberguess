@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+      html {
+        background: linear-gradient(to bottom, #1a1a2e, #16213e);
+        color: #fff;
+        font-family: "Press Start 2P", cursive;
+        min-height: 100vh;
+      }
+
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      h1 {
+        color: #00ff88;
+        text-shadow: 0 0 10px #00ff88;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+      }
+
+      #message {
+        color: #ff00ff;
+        text-shadow: 0 0 5px #ff00ff;
+        margin: 1.5rem 0;
+        font-size: 1rem;
+      }
+
+      #lives {
+        font-size: 2rem;
+        letter-spacing: 5px;
+        margin: 1rem 0;
+      }
+
+      #score {
+        color: #00ffff;
+        text-shadow: 0 0 5px #00ffff;
+        font-size: 1.2rem;
+        margin: 1rem 0;
+      }
+
+      .guessField {
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px solid #00ff88;
+        border-radius: 5px;
+        color: #fff;
+        font-family: "Press Start 2P", cursive;
+        font-size: 1.2rem;
+        margin: 1rem 0;
+        padding: 0.5rem;
+        text-align: center;
+        width: 200px;
+        outline: none;
+      }
+
+      .guessField:focus {
+        box-shadow: 0 0 15px #00ff88;
+      }
+
+      .guessSubmit {
+        background: #ff00ff;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-family: "Press Start 2P", cursive;
+        font-size: 1rem;
+        padding: 1rem 2rem;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+      }
+
+      .guessSubmit:hover {
+        background: #ff33ff;
+        box-shadow: 0 0 20px #ff00ff;
+        transform: scale(1.05);
+      }
+
+      #previousGuesses {
+        color: white;
+        margin-top: 1rem;
+      }
